@@ -3,7 +3,7 @@
 class Products
 {
 
-    // Private
+    // Private attributes
     private $name;
     private $ref;
     private $desc;
@@ -16,6 +16,7 @@ class Products
         $this->desc = $desc;
     }
 
+    // methods
     public function getRef()
     {
         return $this->ref;

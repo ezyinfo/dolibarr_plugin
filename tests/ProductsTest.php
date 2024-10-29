@@ -9,9 +9,10 @@ class ProductsTest extends TestCase
 
     public function testDefault()
     {
-        $this->assertTrue(true);
+        $ref = "##";
+        //$this->assertTrue(true);
 
-        $product = new Products("##", "prod", "Desc");
-        $this->assertSame("##", $product->getRef());
+        $product = new Products($ref, "prod", "Desc");
+        $this->assertSame($ref, $product->getRef());
     }
 }
