@@ -9,7 +9,7 @@ class Products
     private $desc;
 
     // Constructor
-    public function __construct($ref, $name, $desc)
+    public function __construct($name, $ref, $desc)
     {
         $this->ref = $ref;
         $this->name = $name;
